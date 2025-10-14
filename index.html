@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rogério Guimarães — Portfólio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Space+Grotesk:wght@400;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Fundo animado -->
+  <canvas id="bg"></canvas>
+
+  <!-- Camadas Parallax -->
+  <div class="parallax">
+    <div class="layer" data-depth="0.05"></div>
+    <div class="layer" data-depth="0.12"></div>
+    <div class="layer" data-depth="0.2"></div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="nav glass">
+    <a href="#inicio" class="brand"><span>Rogério Guimarães</span> / Desenvolvedor Full Stack</a>
+    <ul class="menu">
+      <li><a href="#inicio" class="menu-link">Início</a></li>
+      <li><a href="#sobre" class="menu-link">Sobre</a></li>
+      <li><a href="#projetos" class="menu-link">Projetos</a></li>
+      <li><a href="#contatos" class="menu-link cta">Contato</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero -->
+  <header id="inicio" class="hero">
+    <div class="hero-content">
+      <div class="badge">Disponível Para Freelas</div>
+      <h1 id="typing" class="title"></h1>
+      <p class="subtitle">Desenvolvedor Full Stack • Integrações & Automações</p>
+      <div class="cta-row">
+        <a href="#projetos" class="btn primary">Ver Projetos</a>
+        <a href="#contatos" class="btn ghost">Fale comigo</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <img src="img/me2.png" alt="Foto Rogério Guimarães" class="avatar float" />
+      <div class="glow"></div>
+    </div>
+  </header>
+
+  <!-- Sobre -->
+  <section id="sobre" class="section">
+    <div class="container reveal">
+      <h2 class="section-title">Sobre Mim</h2>
+      <p class="lead">
+        Olá, meu nome é Rogério. Tenho 30 anos e atualmente atuo como operador de caixa em um supermercado — uma função
+        que me ensinou muito sobre responsabilidade, empatia no atendimento ao público e trabalho em equipe. Agora,
+        estou trilhando um novo caminho: a programação.
+      </p>
+      <p class="lead">
+        Desde sempre sou apaixonado por Tecnologia. Tive o primeiro contato com a programação há 2 anos, porém por
+        causa de problemas financeiros, não consegui seguir estudando. Mas agora, graças a Deus, estou tendo a
+        oportunidade de focar 100% nessa área.
+      </p>
+      <p class="lead">
+        No momento estudo desenvolvimento web (Dev Club) e me dedico a criar interfaces bonitas, responsivas e rápidas
+        usando
+        HTML, CSS e JavaScript — além de integrações e automações quando necessário.
+      </p>
+      <div class="stack">
+        <span class="chip">HTML</span>
+        <span class="chip">CSS</span>
+        <span class="chip">JavaScript</span>
+        <span class="chip">Node.js</span>
+        <span class="chip">React</span>
+        <span class="chip">TypeScript</span>
+        <span class="chip">n8n</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projetos -->
+  <section id="projetos" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">Projetos em Destaque</h2>
+
+      <div class="grid">
+        <a class="card tilt reveal" href="https://rogeriohetfield.github.io/Projeto-Site-da-Nike" target="_blank">
+          <img src="./img/projetonike.PNG" alt="projeto da nike" class="projetos-imagem">
+          <div class="card-body">
+            <h3>Site da Nike</h3>
+            <p>Nike | Esporte, Estilo e Performance — Encontre Seu Próximo Desafio</p>
+            <div class="tags">
+              <span>HTML</span><span>CSS</span><span>JS</span>
+            </div>
+          </div>
+        </a>
+
+        <a class="card tilt reveal" href="https://rogeriohetfield.github.io/projetomario" target="_blank">
+          <img src="./img/projetomario.PNG" alt="projeto do mario brothers" class="projetos-imagem">
+          <div class="card-body">
+            <h3>Mario Brothers Encanadores</h3>
+            <p>Soluções rápidas e divertidas para qualquer encanamento!</p>
+            <div class="tags">
+              <span>HTML</span><span>CSS</span><span>JS</span>
+            </div>
+          </div>
+        </a>
+
+        <a class="card tilt reveal" href="https://rogeriohetfield.github.io/CarDri-Personalizados" target="_blank">
+          <img src="./img/cardri.png" alt="projeto cardri" class="projetos-imagem">
+          <div class="card-body">
+            <h3>CarDri Personalizados</h3>
+            <p>Venda de canecas e azulejos</p>
+            <div class="tags">
+              <span>Front-end</span><span>UX</span>
+            </div>
+          </div>
+        </a>
+
+        <a class="card tilt reveal" href="https://rogeriohetfield.github.io/Projeto-Easy-Shopping" target="_blank">
+          <img src="./img/projetoshopping.PNG" alt="projeto do shopping" class="projetos-imagem">
+          <div class="card-body">
+            <h3>Shopping No Celular</h3>
+            <p>Shopping Mobile | Comprou no Celular, Chegou no Portão!</p>
+            <div class="tags">
+              <span>Front-end</span><span>UI</span>
+            </div>
+          </div>
+        </a>
+
+        <a class="card tilt reveal" href=https://rogeriohetfield.github.io/previsa-do-tempo target="_blank">
+          <img src="./img/projetoprevisao.PNG" alt="projeto da previsao do tempo" class="projetos-imagem">
+          <div class="card-body">
+            <h3>Previsão do Tempo</h3>
+            <p>Previsão rápida: Sol, Chuva ou Tempestade?</p>
+            <div class="tags">
+              <span>API</span><span>JS</span>
+            </div>
+          </div>
+        </a>
+
+        <a class="card tilt reveal" href=https://rogeriohetfield.github.io/SonsOfAnarchy target="_blank">
+          <img src="./img/projetosoa.PNG" alt="projeto da sons of anarchy" class="projetos-imagem">
+          <div class="card-body">
+            <h3>Sons Of Anarchy</h3>
+            <p>S.O.A | Além da Estrada</p>
+            <div class="tags">
+              <span>UI</span><span>Animação</span>
+            </div>
+          </div>
+        </a>
+
+        <a class="card tilt reveal" href="https://rogeriohetfield.github.io/Projeto-TLOU" target="_blank">
+          <img src="./img/projetotlou.PNG" alt="projeto the last of us" class="projetos-imagem">
+          <div class="card-body">
+            <h3>The Last Of Us</h3>
+            <p>Um novo caminho</p>
+            <div class="tags">
+              <span>Landing</span><span>Design</span>
+            </div>
+          </div>
+        </a>
+
+        <a class="card tilt reveal" href="https://rogeriohetfield.github.io/Projeto-Wide-Coverage" target="_blank">
+          <img src="./img/projetowide.PNG" alt="projeto wide coverage" class="projetos-imagem">
+          <div class="card-body">
+            <h3>Wide Coverage Location</h3>
+            <p>Precisão sem limites</p>
+            <div class="tags">
+              <span>Map</span><span>UI</span>
+            </div>
+          </div>
+        </a>
+
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contatos" class="section">
+    <div class="container narrow reveal">
+      <h2 class="section-title">Entre em Contato</h2>
+      <form class="form" onsubmit="enviarWhats(event)">
+        <input id="nome" class="input" type="text" placeholder="Seu nome" />
+        <textarea id="mensagem" class="input" rows="5" placeholder="Digite sua mensagem..."></textarea>
+        <button class="btn primary" type="submit">Enviar para WhatsApp</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Rogério Guimarães. Todos os Direitos Reservados.</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+
+</html>
