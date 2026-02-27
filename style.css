@@ -332,11 +332,12 @@ body.light .title {
   margin-bottom: 16px
 }
 
+/* No seu style.css, altere para algo assim: */
 .lead {
-  color: #000000;
-  line-height: 1.7;
-  font-weight: bolder;
-  font-size: 24px;
+  color: var(--muted); /* Use a cor suave que você já criou */
+  line-height: 1.6;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
 }
 
 body.light .lead {
@@ -371,12 +372,14 @@ body.light .chip {
 }
 
 .card {
-  background: rgba(255, 255, 255, .03);
-  border: 1px solid var(--border);
-  border-radius: 18px;
-  overflow: hidden;
-  transition: transform .25s ease, box-shadow .25s ease;
-  transform-style: preserve-3d
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(10px); /* Efeito de vidro */
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.projetos-imagem {
+  height: 180px;
+  border-bottom: 1px solid var(--border);
 }
 
 body.light .card {
